@@ -12,7 +12,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -75,7 +77,8 @@
                   <div class="col-lg-4">
                     <form action="" method="post">
                       <div class="input-group">
-                        <input type="number" class="form-control" placeholder="Masukkan Tahun">
+                        <span class="input-group-text">Pilih Tahun: </span>
+                        <input type="text" class="form-control" value="2023" maxlength="6">
                         <button class="btn btn-primary" type="button">Tampilkan</button>
                       </div>
                     </form>
@@ -92,75 +95,23 @@
                       <th scope="col" class="text-center">Dokumen Renstra</th>
                       <th scope="col" class="text-center">Matriks Renstra</th>
                       <th scope="col" class="text-center">Dokumen Renja 2023</th>
-                      <th scope="col" class="text-center">Aksi</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
                       <td>Badan Kependudukan dan Keluarga Berencana Nasional (BKKBN) Program</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN Kantor Perwakilan</td>
-                      <td>BKKBN</td>
-                      <td>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                          <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                          <button type="button" class="btn btn-warning"><i class="bi bi-search"></i></button>
-                          <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
-                          <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                        </div>
+                      <td class=" text-center">
+                        <button type="button" class="btn btn-info"><i class="bi bi-search"></i></button>
                       </td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Badan Kependudukan dan Keluarga Berencana Nasional (BKKBN) Program</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN Kantor Perwakilan</td>
-                      <td>BKKBN</td>
-                      <td>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                          <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                          <button type="button" class="btn btn-warning"><i class="bi bi-search"></i></button>
-                          <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
-                          <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                        </div>
+                      <td class=" text-center">
+                        <button type="button" class="btn btn-success"><i class="bi bi-search"></i></button>
                       </td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Badan Kependudukan dan Keluarga Berencana Nasional (BKKBN) Program</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN Kantor Perwakilan</td>
-                      <td>BKKBN</td>
-                      <td>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                          <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                          <button type="button" class="btn btn-warning"><i class="bi bi-search"></i></button>
-                          <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
-                          <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                        </div>
+                      <td class=" text-center">
+                        <button type="button" class="btn btn-warning"><i class="bi bi-search"></i></button>
                       </td>
-                    </tr>
-
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>Badan Kependudukan dan Keluarga Berencana Nasional (BKKBN) Program</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN-UKE2</td>
-                      <td>BKKBN Kantor Perwakilan</td>
-                      <td>BKKBN</td>
-                      <td>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                          <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
-                          <button type="button" class="btn btn-warning"><i class="bi bi-search"></i></button>
-                          <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
-                          <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                        </div>
+                      <td class=" text-center">
+                        <button type="button" class="btn btn-danger"><i class="bi bi-search"></i></button>
                       </td>
                     </tr>
                   </tbody>
@@ -201,7 +152,8 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
