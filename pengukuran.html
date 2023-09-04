@@ -85,16 +85,26 @@
             <!-- information input tahun -->
             <div class="card">
               <div class="card-body">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <form action="" method="post">
-                      <div class="input-group">
-                        <span class="input-group-text">Pilih Tahun: </span>
-                        <input type="text" class="form-control" value="2023" maxlength="6">
-                        <button class="btn btn-primary" type="button">Tampilkan</button>
-                      </div>
-                    </form>
-                  </div>
+                <div class="col-md-12 wrap-frame" style="text-align: justify;margin-top: 20px;">
+                  <ol class="breadcrumb">
+                    <li style="padding-top: 7px;">Pilih Tahun:</li>
+                    <li>&nbsp;</li>
+                    <li>
+                      <select id="tahun" name="tahun" class="form-control input-sm">
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option selected>2023</option>
+                        <option>2024</option>
+                      </select>
+                    </li>
+                    <li>&nbsp;</li>
+                    <li>
+                      <button class="btn btn-primary btn-xs" onclick="jvGO();">
+                        <span class="fa fa-search"></span> Tampilkan
+                      </button>
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
